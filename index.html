@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart js</title>
+    <link rel="stylesheet" href="font-awesome/all.min.css">
+    <link rel="stylesheet" href="font-awesome/fontawesome.min.css">
+    <link rel="stylesheet" href="multicartStyle.css">
+</head>
+<body>
+  
+<div class="shopping-cart">
+  <!-- Title -->
+  <div class="title">
+    Shopping Mobile
+  </div>
+ 
+  <!-- Product #1 -->
+  <div class="item">
+ 
+    <div class="image">
+      <img src="images/product-1.png" alt="" height="100" width="100" />
+    </div>
+ 
+    <div class="description">
+      <h5>iPhone 13 128GB</h5>
+      <span> Black</span>
+    </div>
+ 
+    <div class="quantity">
+      <button id="productOne-minus" class="plus-btn" type="button" name="button">
+        <i class="fa-solid fa-minus"></i>
+      </button>
+      <input id="productOne-inputs" type="number" min="0" class="form-control text-center" value="0">
+
+      <button id="productOne-plus" class="minus-btn" type="button" name="button">
+        <i class="fa-solid fa-plus"></i>
+      </button>
+    </div>
+ 
+    <div class="total-price">
+      <h5>$<span id="productOne-price">000</span></h5>
+    </div>
+  </div>
+ 
+  <!-- Product #2 -->
+  <div class="item">
+    <div class="image">
+      <img src="images/product-3.jpg" alt="" height="100" width="100"/>
+    </div>
+ 
+    <div class="description">
+      <h5>iPhone 13 Pro 128 GB</h5>
+      <span>Golden</span>
+    </div>
+ 
+    <div class="quantity">
+      <button id="productTwo-minus" class="plus-btn" type="button" name="button">
+        <i class="fa-solid fa-minus"></i>
+      </button>
+
+      <input id="productTwo-inputs" type="number" min="0" class="form-control text-center" value="0">
+
+      <button id="productTwo-plus" class="minus-btn" type="button" name="button">
+        <i class="fa-solid fa-plus"></i>
+      </button>
+    </div>
+ 
+    <div class="total-price">
+      <h5>$<span id="productTwo-price">000</span></h5>
+    </div>
+  </div>
+
+  <!-- Product #3 -->
+  <div class="item">
+    <div class="image">
+      <img src="images/product3.webp" alt="" height="100" width="100"/>
+    </div>
+ 
+    <div class="description">
+      <h5>Apple iPhone 14 Pro 128 GB</h5>
+      <span>Space Black</span>
+    </div>
+ 
+    <div class="quantity">
+      <button id="productThree-minus" class="plus-btn" type="button" name="button">
+        <i class="fa-solid fa-minus"></i>
+      </button>
+
+      <input id="productThree-inputs" type="number" min="0" class="form-control text-center" value="0">
+
+      <button id="productThree-plus" class="minus-btn" type="button" name="button">
+        <i class="fa-solid fa-plus"></i>
+      </button>
+    </div>
+ 
+    <div class="total-price">
+      <h5>$<span id="productThree-price">000</span></h5>
+    </div>
+  </div>
+  <!-- Product #4 -->
+  <div class="item">
+    <div class="image">
+      <img src="images/product4_.jpg" alt="" height="100" width="100"/>
+    </div>
+ 
+    <div class="description">
+      <h5>Apple iPhone 15 256 GB</h5>
+      <span>White</span>
+    </div>
+ 
+    <div class="quantity">
+      <button id="productFour-minus" class="plus-btn" type="button" name="button">
+        <i class="fa-solid fa-minus"></i>
+      </button>
+
+      <input id="productFour-inputs" type="number" min="0" class="form-control text-center" value="0">
+
+      <button id="productFour-plus" class="minus-btn" type="button" name="button">
+        <i class="fa-solid fa-plus"></i>
+      </button>
+    </div>
+ 
+    <div class="total-price">
+      <h5>$<span id="productFour-price">000</span></h5>
+    </div>
+  </div>
+ 
+  <!-- Total Product Cost -->
+  <div class="item">
+
+      <div class="text-item">
+         <h5>Subtotal:</h5>
+         <h5>Tax:</h5>
+         <h5>Total:</h5>
+      </div>
+
+      <div class="price-item">
+         <h5>$<span id="sub-total">000</span> </h5>
+         <h5>$<span id="tax-ammount">000</span> </h5>
+         <h5>$<span id="total-cost">000</span></h5>
+      </div>
+  </div>
+</div>
+
+<script src="multicart.js"></script>
+</body>
+</html>
